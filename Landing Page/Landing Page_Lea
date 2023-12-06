@@ -11,17 +11,44 @@
     }
 
     header {
-      background-color: #888; /* Grey color */
-      height: 1.5cm;
+      background-color: #888; 
+      height: 2cm;
       width: 100%;
+      position: relative;
     }
+
+    .ellipse {
+      position: absolute;
+      top: 50%; 
+      left: 10px; 
+      transform: translate(0, -50%); 
+      width: 1.5cm; 
+      height: 1.5cm; 
+      background-color: #fff; 
+      border-radius: 50%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000;
+    }
+
+     .ellipse: :before {
+      content: "Logo"
+    }
+
   </style>
 </head>
 <body>
+
   <header>
+    <div class="ellipse"></div>
+
     <!-- header content -->
+
   </header>
 
   <!-- website content -->
+
 </body>
 </html>
+
