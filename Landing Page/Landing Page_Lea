@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiosk der Zukunft</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #888; /* Grey color */
+      height: 1.5cm;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- header content -->
+  </header>
+
+  <!-- website content -->
+</body>
+</html>
